@@ -10,8 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BieaBox">
 
-        <activity
-            android:name=".BeatBoxActivity"
+        <activity android:name=".BeatBoxActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

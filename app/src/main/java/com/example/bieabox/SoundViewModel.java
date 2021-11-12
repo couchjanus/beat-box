@@ -16,13 +16,13 @@ public class SoundViewModel extends BaseObservable {
 //    public String getTitle() {
 //        return mSound.getName();
 //    }
-//
-//    public Sound getSound() {
-//        return mSound;
-//    }
-//
-//    public void setSound(Sound sound) {
-//        mSound = sound;
-//        notifyChange();
-//    }
+
+    public Sound getSound() {
+        return mSound;
+    }
+
+    public void setSound(Sound sound) {
+        mSound = sound;
+        notifyChange();
+    }
 }
